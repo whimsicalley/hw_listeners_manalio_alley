@@ -1,5 +1,10 @@
 body {
     background-color: #6c5b7b;
+    font-family: Verdana;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 1.2em;
 }
 
 .container {
@@ -7,4 +12,65 @@ body {
     margin: auto;
     width: 700px;
     background-color: #f8b195;
+}
+
+form {
+    background-color: #c06c84;
+    padding: 35px;
+    margin: 0 25px;
+    border: 5px solid #f67280;
+}
+
+fieldset {
+    border: none;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+input,
+textarea {
+    padding: 5px 10px;
+    width: 100%;
+    background-color: #f67280;
+    border: none;
+    margin-bottom: 20px;
+    height: 2em;
+    border-radius: 10px;
+    font-family: Verdana;
+    color: white;
+    letter-spacing: 1px;
+}
+
+textarea {
+    height: 100px;
+}
+
+/* To stylize placeholder text (below) */
+
+::-webkit-input-placeholder {
+    color: #dddddd;
+    font-family: Verdana;
+    letter-spacing: 2px;
+    font-style: italic;
+}
+
+input[type="submit"] {
+    border-radius: 0;
+    color: white;
+    text-transform: uppercase;
+    width: 30%;
+    margin: auto;
+    display: block;
+    background-color: #355c7d;
+    padding: 20px;
+    border: 3px white solid;
+    height: auto;
+}
+
+input[type="submit"]:hover {
+    background-color: #6c5b7b;
+    border: 3px #bbbbbb solid;
 }

@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <title></title>
+    <title>Form Branch</title>
     <meta name="description" content="">
 
     <link rel="stylesheet" href="css/vendor/normalize.min.css">
@@ -12,19 +12,21 @@
 
     <div class="container">
         <form>
-            <label>First Name:</label>
-            <input type="text" name="firstname">
+            <fieldset>
+                <label>First Name:</label>
+                <input type="text" name="firstname">
 
-            <label>Last Name:</label>
-            <input type="text" name="lastname">
+                <label>Last Name:</label>
+                <input type="text" name="lastname">
 
-            <label>Email:</label>
-            <input type="text" name="email">
+                <label>Email:</label>
+                <input type="email" name="email">
 
-            <label>Message:</label>
-            <input type="text" name="message">
+                <label>Message:</label>
+                <textarea type="text" name="message" placeholder="What can I do for you?"></textarea>
 
-            <input type="submit" value="Submit">
+                <input type="submit" value="Submit">
+            </fieldset>
         </form>
     </div>
 
