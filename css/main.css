@@ -1,9 +1,10 @@
 body {
-    background-color: #f8b195;
+    background-color: #6c5b7b;
 }
 
 .container {
-    max-width: 700px;
-    width: 100%;
+    padding: 100px 0;
     margin: auto;
+    width: 700px;
+    background-color: #f8b195;
 }
