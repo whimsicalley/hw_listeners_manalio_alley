@@ -1,0 +1,35 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+body {
+    background-color: #bbbbbb;
+    font-family: Roboto;
+}
+
+.container {
+    width: 600px;
+    margin: auto;
+    background-color: #a8e6ce;
+    border: 10px solid white;
+    padding: 50px;
+}
+
+h1,
+h2 {
+    text-align: center;
+}
+
+h1 {
+    text-transform: uppercase;
+}
+
+h2 {
+    padding-bottom: 15px;
+}
