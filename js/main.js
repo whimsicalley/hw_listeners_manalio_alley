@@ -1,9 +1,11 @@
 var pageHeading = document.getElementById('pageHeading'); //assigning a variable to the h1's ID
 
+var x = 0;
+
 function addParagraph() {
     var paragraph = document.createElement('article'); //creating the article for the paragraph to go into
 
-    paragraph.innerHTML = '<p>This is click number x</p>'; //creating the content of the article
+    paragraph.innerHTML = '<p>This is click number ' + x + '</p>'; //creating the content of the article
     document.getElementById('container').appendChild(paragraph); //adding the "paragraph" variable within the container
 }
 
