@@ -57,7 +57,7 @@ textarea {
     font-style: italic;
 }
 
-input[type="submit"] {
+#submit {
     border-radius: 0;
     color: white;
     text-transform: uppercase;
@@ -70,7 +70,7 @@ input[type="submit"] {
     height: auto;
 }
 
-input[type="submit"]:hover {
+#submit:hover {
     background-color: #6c5b7b;
     border: 3px #bbbbbb solid;
 }
