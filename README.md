@@ -13,6 +13,8 @@ Due 7/15/2016 for Adv Web 2 in Summer 2016
 
 * [Form elements collection by W3Schools](http://www.w3schools.com/jsref/coll_form_elements.asp) Helped me understand what I was doing wrong in my form event listener! I forgot to add ".value" so my JavaScript kept returning "undefined" or "HTML input type".
 
+* [Gif-finder](http://gif-finder.com/aubrey-plaza-annoyed-no/) Used the Aubrey gif from this site.
+
 ## Comments
 
-Super scary homework at first... but I'm pretty proud by how far I could go on my own.
+Super scary homework at first... but I think I kind of got the hang of it.
