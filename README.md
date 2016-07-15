@@ -1,6 +1,10 @@
 # JavaScript Events
 Due 7/15/2016 for Adv Web 2 in Summer 2016
 
+## Original Repository
+
+* [Starter code](https://github.com/richardkalehoff/UF-starter-project)
+
 ## Resources
 
 * [Image 1](http://digitalsynopsis.com/wp-content/uploads/2016/01/minimal-web-color-palettes-combination-hex-code-1.png) Used this for inspiration for my "form" color scheme.
