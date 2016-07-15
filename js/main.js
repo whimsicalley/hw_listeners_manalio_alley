@@ -1,4 +1,4 @@
-//Event #1 - When you click on list item #1 the list item reacts by adding the "serious" class, which makes the list item bold, uppercase, and red.
+//Event #1 - When you click on list item #1 in the ordered list, the list item reacts by adding the "serious" class, which is stylized to make the list item bold, uppercase, and red.
 
 var bridgette = document.getElementById('bridgette');
 function serious() {
