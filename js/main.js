@@ -22,12 +22,15 @@ function veryserious() {
 warning.addEventListener('dblclick', veryserious);
 
 
+//Event #3 - This event listener begins when the user mouses over the h1 element "Big Brother 18." Once the mouse moves over the h1, the show's official tagline "Expect the Unexpected" appears under it.
 
-// var header = document.getElementById('header');
-// function tagline() {
-//     var tag = document.createElement('article');
-//     tag.innerHTML = '<p>Expect the unexpected!</p>';
-//     document.getElementsByClassName('header').appendChild(tag);
-// }
+var headline = document.getElementById('headline');
 
-// header.addEventListener('keydown', tagline);
+function tagline() {
+    var tag = document.createElement('p');
+
+    tag.innerHTML = '<em>"Expect the unexpected!"</em>';
+    document.getElementById('header').appendChild(tag);
+}
+
+headline.addEventListener('mouseover', tagline);
